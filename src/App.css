@@ -1,0 +1,38 @@
+.order-summary-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 25em;
+  height: 40em;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.order-hero-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0 ;
+}
+
+.order-summary-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5em 1.5em;
+  height: 100%;
+
+  font-family: RedHatDisplay;
+}
+
+.summary-header {
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: hsl(223, 47%, 23%);
+}
+
+.summary-subText {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+}
