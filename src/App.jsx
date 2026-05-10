@@ -1,5 +1,6 @@
 import './App.css'
 import OrderItem from './components/order-item-comp/OrderItem'
+import PaymentBtn from './components/payment-btn-comp/PaymentBtn'
 import illustrationHero from './assets/images/illustration-hero.svg'
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
         <div className="order-item">
           <OrderItem />
         </div>
-        <div className="payment-btn">Proceed to Payment</div>
+        <div className="payment-btn">
+          <PaymentBtn />
+        </div>
         <div className="cancel-btn">Cancel Order</div>
       </div>
     </div>

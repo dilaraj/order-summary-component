@@ -42,3 +42,9 @@
   display: flex;
   justify-content: center;
 }
+
+.payment-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
