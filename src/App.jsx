@@ -19,7 +19,9 @@ function App() {
         <div className="payment-btn">
           <PaymentBtn />
         </div>
-        <div className="cancel-btn">Cancel Order</div>
+        <div className="cancel-btn-container">
+          <button className="cancel-btn">Cancel Order</button>
+        </div>
       </div>
     </div>
   )
